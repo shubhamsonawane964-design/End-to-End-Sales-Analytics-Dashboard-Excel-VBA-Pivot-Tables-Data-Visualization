@@ -6,7 +6,7 @@
 
 ## 📸 Dashboard Preview
 
-![Sales Analytics Dashboard](https://img.shields.io/badge/Excel-VBA%20%7C%20Pivot%20Tables%20%7C%20Charts-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
+![Sales Analytics Dashboard](https://github.com/shubhamsonawane964-design/End-to-End-Sales-Analytics-Dashboard-Excel-VBA-Pivot-Tables-Data-Visualization/blob/main/Sales%20Analytics%20Dashboard%20Overview.png?raw=true)
 
 > **Screenshot:** The dashboard displays real-time KPI cards, ranked bar charts for top performers and laggards, a region-wise breakdown, and a filterable raw data table — all driven by Pivot Tables and VBA macros.
 
