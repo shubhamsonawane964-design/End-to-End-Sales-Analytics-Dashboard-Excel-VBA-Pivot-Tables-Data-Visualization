@@ -1,189 +1,120 @@
-# 📊 End-to-End Sales Analytics Dashboard (Excel, VBA, Pivot Tables & Data Visualization)
+# 📊 End-to-End Sales Analytics Dashboard
 
-![Excel](https://img.shields.io/badge/Excel-Advanced-217346?style=for-the-badge&logo=microsoft-excel)
-![VBA](https://img.shields.io/badge/VBA-Automation-blue?style=for-the-badge)
-![Dashboard](https://img.shields.io/badge/Dashboard-Interactive-success?style=for-the-badge)
-![License](https://img.shields.io/badge/Project-Portfolio-orange?style=for-the-badge)
-
-## 📌 Project Overview
-
-This project is a complete **Sales Analytics Dashboard** built using **Microsoft Excel**, **Excel VBA**, **Pivot Tables**, and **Interactive Charts**.
-
-The dashboard converts raw sales data into meaningful business insights, allowing users to monitor KPIs, analyze sales performance, identify trends, and make data-driven business decisions.
-
-It demonstrates practical Excel skills used by **Data Analysts**, **Business Analysts**, and **MIS Executives**.
+> A fully interactive Excel workbook featuring VBA automation, Pivot Tables, and dynamic data visualizations for tracking 136 sales executives across 8 regions in India.
 
 ---
 
-# 📸 Dashboard Preview
+## 📸 Dashboard Preview
 
-## Main Dashboard
+![Sales Analytics Dashboard](https://img.shields.io/badge/Excel-VBA%20%7C%20Pivot%20Tables%20%7C%20Charts-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
 
-![Dashboard](images/dashboard-overview.png)
-
----
-
-## Sales Performance Analysis
-
-![Sales Analysis](images/sales-analysis.png)
+> **Screenshot:** The dashboard displays real-time KPI cards, ranked bar charts for top performers and laggards, a region-wise breakdown, and a filterable raw data table — all driven by Pivot Tables and VBA macros.
 
 ---
 
-## Regional Sales Analysis
+## 🚀 Features
 
-![Regional Analysis](images/regional-analysis.png)
-
----
-
-## Pivot Tables & Charts
-
-![Pivot Tables](images/pivot-tables.png)
-
----
-
-# 🚀 Features
-
-- Interactive Excel Dashboard
-- VBA Automation
-- Dynamic Pivot Tables
-- Pivot Charts
-- Slicers & Filters
-- KPI Cards
-- Sales Trend Analysis
-- Regional Performance Analysis
-- Product Performance Analysis
-- Customer Analysis
-- Profit Analysis
-- One-Click Dashboard Refresh
+- **Interactive Dashboard Sheet** — Dynamically linked charts and KPI cards that update automatically when the raw data changes
+- **Top Performers View** — Ranked bar chart showing top 5 Sales Executives by total sales (Target: 500 units/exec)
+- **Laggard Tracker** — Highlights executives furthest from target, enabling quick managerial intervention
+- **Target Hit % Analysis** — Percentage-based performance view across all 136 executives
+- **Away From Target % View** — Gap analysis to identify coaching opportunities
+- **VBA Automation** — Macros to refresh Pivot Tables, auto-sort rankings, and reset filters with a single click
+- **Pivot Tables** — Aggregated summaries by region, executive name, and performance tier
+- **Raw Data Sheet** — Structured daily sales data (Day 1–5) for 136 employees with auto-calculated totals
 
 ---
 
-# 📊 Dashboard KPIs
+## 📁 File Structure
 
-- 💰 Total Sales
-- 📈 Total Profit
-- 📦 Total Orders
-- 🛒 Total Quantity
-- 👥 Customer Performance
-- 🌍 Regional Sales
-- 📅 Monthly Sales Trend
-- 🏆 Top Products
-- 📊 Category-wise Analysis
-
----
-
-# 🛠️ Tools & Technologies
-
-- Microsoft Excel
-- Excel VBA
-- Pivot Tables
-- Pivot Charts
-- Slicers
-- Conditional Formatting
-- Data Validation
-- Dashboard Design
-- Business Intelligence
-
----
-
-# 📈 Business Insights
-
-The dashboard helps answer important business questions such as:
-
-- Which region generates the highest sales?
-- Which products generate the most profit?
-- What is the monthly sales trend?
-- Which categories perform best?
-- Which customers contribute the highest revenue?
-- How can business performance be monitored using KPIs?
-
----
-
-# 🔄 Workflow
-
-1. Import Raw Data
-2. Data Cleaning
-3. Data Preparation
-4. Create Pivot Tables
-5. Build Pivot Charts
-6. Design Dashboard
-7. Add Slicers
-8. Automate Using VBA
-9. Generate Business Insights
-
----
-
-# 📂 Project Structure
-
-```text
-📁 End-to-End-Sales-Analytics-Dashboard
+```
+End-to-End_Sales_Analytics_Dashboard.xlsm
 │
-├── 📁 images
-│   ├── dashboard-overview.png
-│   ├── sales-analysis.png
-│   ├── regional-analysis.png
-│   └── pivot-tables.png
-│
-├── 📄 End-to-End Sales Analytics Dashboard.xlsm
-├── 📄 README.md
+├── DASHBOARD          ← Interactive charts, KPI cards, ranked views
+└── RAW DATA           ← Source data: 136 rows × 12 columns
 ```
 
 ---
 
-# 💡 Skills Demonstrated
+## 📊 Dataset Overview
 
-- Advanced Excel
-- Excel VBA
-- Dashboard Development
-- Data Cleaning
-- Data Visualization
-- Business Intelligence
-- Pivot Tables
-- Pivot Charts
-- Reporting
-- Automation
-- KPI Design
-- Analytical Thinking
+| Column | Description |
+|---|---|
+| `Emp Code` | Unique employee identifier (e.g., Mum-TCL001) |
+| `Sales Executive` | Full name of the sales rep |
+| `Region` | One of 8 Indian cities (Mumbai, Delhi, Nagpur, Chennai, Pune, Patna, Ranchi, Surat) |
+| `Day1 – Day5` | Daily sales units for a 5-day cycle |
+| `Total Sales` | Sum of Day1–Day5 |
+| `Target` | Fixed target of 500 units per executive |
+| `Target Hit %` | `Total Sales / Target` |
+| `Away From Target %` | `1 - Target Hit %` |
 
----
-
-# 🎯 Learning Outcomes
-
-This project helped me develop practical experience in:
-
-- Building professional Excel dashboards
-- Automating repetitive tasks with VBA
-- Creating interactive reports
-- Designing business KPIs
-- Visualizing sales data
-- Presenting insights for decision-making
+**Dataset stats:**
+- 136 Sales Executives
+- 8 Regions
+- Target per executive: 500 units
+- Top performer: Jagdish Chandra — 389 units (77.8% of target)
+- Lowest performer: Omprakash O — 143 units (28.6% of target)
 
 ---
 
-# ⭐ Future Improvements
+## 🛠️ Tech Stack
 
-- Power Query Integration
-- Power Pivot
-- SQL Database Connection
-- Power BI Dashboard
-- Forecasting
-- Sales Prediction
-- Dynamic Report Export
-
----
-
-# 👨‍💻 Author
-
-**Shubham Sonawane**
-
-Aspiring Data Analyst | Excel | SQL | Power BI | Python
-
-📧 Email:shubhamsonawane964@gmail.com
-
-💼 LinkedIn:https://www.linkedin.com/in/shubham-sonawane-186a00315?utm_source=share_via&utm_content=profile&utm_medium=member_android
-
-🐙 GitHub: https://github.com/shubhamsonawane964-design
+| Tool | Usage |
+|---|---|
+| Microsoft Excel (.xlsm) | Core platform |
+| VBA (Visual Basic for Applications) | Automation, macros, interactivity |
+| Pivot Tables | Data aggregation and summary |
+| Excel Charts | Bar charts, column charts, data visualization |
+| Conditional Formatting | Color-coded performance indicators |
+| XLOOKUP / SUMIF | Dashboard formula logic |
 
 ---
 
+## 📂 How to Use
+
+1. **Download** the `.xlsm` file from this repository
+2. **Open** in Microsoft Excel (2016 or later recommended)
+3. **Enable Macros** when prompted (required for VBA features to work)
+4. Navigate to the **DASHBOARD** sheet to view the interactive analytics
+5. To update data, edit values in the **RAW DATA** sheet — the dashboard refreshes automatically via Pivot Table connections
+
+---
+
+## 📈 Dashboard Sections
+
+### 1. KPI Summary Cards
+Displays high-level metrics at a glance:
+- Total number of sales executives
+- Average sales per executive
+- Top performer name and score
+- Number of active regions
+
+### 2. Top Performers Chart
+Ranked bar chart of the 5 best-performing executives by total sales volume, with percentage target achievement shown alongside.
+
+### 3. Laggards / Away From Target Chart
+Inverted ranking showing which executives are furthest from their 500-unit target — useful for coaching and performance management.
+
+### 4. Target Hit % vs. Away From Target %
+Side-by-side comparison allowing managers to see both the achievement and the gap for each executive in a single view.
+
+---
+
+## 🧑‍💼 About the Project
+
+This project was built as part of an end-to-end data analytics portfolio to demonstrate proficiency in:
+
+- Structuring and cleaning raw sales data in Excel
+- Building automated, formula-driven dashboards
+- Using Pivot Tables for fast, dynamic aggregation
+- Writing VBA macros to enhance usability
+- Creating professional data visualizations without external tools
+
+---
+
+## 📬 Connect
+
+**GitHub:**(https://github.com/shubhamsonawane964-design)  
+**LinkedIn:**https://www.linkedin.com/in/shubham-sonawane-186a00315?utm_source=share_via&utm_content=profile&utm_medium=member_android
 
